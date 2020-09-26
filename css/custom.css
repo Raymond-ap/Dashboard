@@ -1,0 +1,93 @@
+.sidebar * {
+  text-transform: capitalize !important;
+}
+
+.row {
+  width: 100% !important;
+}
+
+/* new created chart */
+.new_chart_container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+}
+
+.new_chart_container .card-header {
+  width: 100%;
+  background-color: #fff;
+}
+
+.m-left {
+  margin-left: 0.1rem;
+}
+
+.toggle_charts_display_container {
+  background: #f8f9fc;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.toggle_charts_display_container > div button {
+  border: none;
+  outline: none;
+  background: transparent;
+  text-transform: capitalize;
+  color: #c3c3c5;
+}
+
+.active-btn {
+  font-size: 18px;
+  color: #000 !important;
+  border-bottom: 3px solid rgb(18, 65, 167) !important;
+}
+
+.charts-container-wrapper {
+  width: 100%;
+  background: #fff;
+}
+
+.list-items {
+  padding: 0.7rem;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+.list-items > div span {
+  text-transform: capitalize;
+  color: #a9a9aa;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.list-items > .list .nums {
+  font-size: 20px;
+}
+
+.m-left-2 {
+  margin-left: 2rem;
+}
+
+@media screen and (max-width: 550px) {
+  .list-items {
+    flex-direction: column;
+    display: inline;
+  }
+
+  .m-left-2 {
+    margin-left: 0 !important;
+  }
+}
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+      padding-right: 0 !important;
+
+}
